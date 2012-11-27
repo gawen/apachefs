@@ -53,7 +53,7 @@ For example, let's mount the Ubuntu's heanet mirror: [http://ftp.heanet.ie/pub/u
     quantal
     $
 
-The ``cd heanet`` and ``ls`` operation could take a while, because it requires the script to do a ``HEAD`` request for each of the files in the directory to have the file meta-attributes.
+The ``cd heanet`` and ``ls`` operations could take a while, because it requires the script to do a HTTP ``HEAD`` request for each of the files in the directory to have the file meta-attributes.
 
 To un-mount the filesystem, just type.
     
