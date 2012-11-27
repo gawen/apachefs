@@ -13,7 +13,7 @@ First get the code of this repository.
 
 Before actually using the script, you will first require to install ``fusepy`` and ``BeautifulSoup``.
 
-    $ easy_install fusepy beautifulsoup
+    $ pip install fusepy beautifulsoup
 
 The script to use is named ``apachefs.py``.
 
