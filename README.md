@@ -30,7 +30,7 @@ The script to use is named ``apachefs.py``.
 For example, let's mount the Ubuntu's heanet mirror: [http://ftp.heanet.ie/pub/ubuntu-cdimage/releases/](http://ftp.heanet.ie/pub/ubuntu-cdimage/releases/).
 
     $ mkdir heanet
-    $ ./apachefs.py http://ftp.heanet.ie/pub/ubuntu-cdimage/releases/
+    $ ./apachefs.py http://ftp.heanet.ie/pub/ubuntu-cdimage/releases/ heanet
     $ cd heanet
     $ ls
     10.04
